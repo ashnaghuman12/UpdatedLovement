@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" type="text/css" href="css\NoBanNoWall.css">
+  <link rel="shortcut icon" type="images/png" href = "photo/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gilda+Display" rel="stylesheet">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+      <style>
+      /* The font style for the buttons on the drop down menu */
+      .dropbtn {
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+      }
+      .dropdown {
+          position: relative;
+          display: inline-block;
+      }
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 60px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+      }
+      .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+      }
+      .dropdown-content a:hover {background-color: #ddd;}
+      .dropdown:hover .dropdown-content {display: block;}
+      .dropdown:hover .dropbtn {background-color: #3e8e41;}
+      </style>
+
+      </head>
+
+            <body>
+        <!-- Title and Logo -->
+        <!-- <img = src= "photos/L O V E M E N T (5).png" class="logo"> -->
+          <h1>L o v e m e n t</h1>
+      <div>
+        <!-- buttons -->
+        <h2>
+          <form method="get" action="Home.html"><button class="button1" type="submit"> Home</button></form>
+          <form method="get" action="OurStory.html"><button class="button1" type="submit"> Our Story</button></form>
+          <form method="get" action="WCYD.html"><button class="button1" type="submit"> What You Can Do</button></form>
+          <form method="get" action="Events.html"><button class="button1" type="submit">Events</button></form>
+
+          <div class="dropdown">
+            <button class="button1">Articles</button>
+            <div class="dropdown-content">
+              <form method="get" action="BlackLivesMatter.html"><button class="button1" type="submit">#BlackLivesMatter</button></form>
+              <form method="get" action="NoBanNoWall.html"><button class="button1" type="submit">#NoBanNoWall</button></form>
+              <form method="get" action="LoveWins.html.html"><button class="button1" type="submit">#LoveWins</button></form>
+              <form method="get" action="MeToo.html"><button class="button1" type="submit">#MeToo</button></form>
+              <form method="get" action="EndGunViolence.html"><button class="button1" type="submit">#EndGunViolence</button></form>
+              <form method="get" action="AllArticles.html"><button class="button1" type="submit">All Articles</button></form>
+         </h2>
+         <h3><center>#No Ban, No Wall</center></h3><br>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="C:\Users\Girls Who Code\Desktop/lovement_project\photo/march.jpg" style="width:100%">
+  <div class="text">#No Ban, No Wall</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="C:\Users\Girls Who Code\Desktop/lovement_project\photo/maxresdefault.jpg" style="width:100%">
+  <div class="text">#No Ban, No Wall</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="C:\Users\Girls Who Code\Desktop/lovement_project\photo/muslimban.jpg" style="width:100%">
+  <div class="text">#No Ban, No Wall</div>
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+
+<p>	In early January 2018, President Donald Trump made the decision to ban people in major Muslim countries from entering the United States to seek refuge.
+  <div>By making this decision, Trump has openly persecuted a group of people for their identity.</div>
+     As a result,
+
+America, a country founded and created by immigrants, should
+
+Separating families at the border, deporting family members who have rebuilt their life in the US, and holding children in cages at detention centers are just a few things going on under Trump’s dictatorship.
+</p>
+
+<iframe src="https://www.huffingtonpost.com/timothy-p-silard/no-ban-no-wall-standing_b_14520530.html" height="400" width="275"></iframe>
+<iframe src="https://powertotheposter.com/posters/no-ban-no-wall" height="400" width="275"></iframe>
+<iframe src="https://www.codepink.org/no_ban_no_wall" height="400" width="275"></iframe>
+<iframe src="http://www.ucc.org/commentary_no_ban_no_raids_no_wall_sanctuary_for_all_09282017" height="400" width="275"></iframe>
+
+
+</body>
+</html>
