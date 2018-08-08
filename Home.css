@@ -1,0 +1,163 @@
+/* Button Design */
+
+.button1 {
+  display: inline-block;
+  /* padding: 15px 25px;
+  font-size: 24px; */
+  cursor: pointer;
+  text-align: center;
+  /* text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50; */
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px gray;
+  font-family: 'Gilda Display', serif;
+  font-size: 15px;
+  float: left;
+  position: relative;
+  padding: 0px 10px;
+  /* border-radius: 10px; */
+  width: 155px;
+  height: 50px;
+  margin: -25px auto 20px auto;
+  position:static;
+  margin-left: 120px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.button1:hover {background-color: gray}
+
+.button1:active {
+  background-color: gray;
+  box-shadow: 0 5px gray;
+  transform: translateY(4px);
+}
+h1 {
+  background-color: #89818C;
+font-size: 65px;
+text-align: center;
+color: white;
+font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.column{
+  float:left;
+  height: 20%;
+
+}
+
+h3{
+  font-family: 'Gilda Display', serif;
+  position:relative;
+  right: -11px;
+  font-size:22px;
+}
+
+.ms-container{
+  position:static;
+  margin-top:-412px;
+  float:right;
+  padding-right: -70px;
+  background-color: #A1D2CE;
+  width: 50%;
+  height: 68%;
+}
+
+.cu-container{
+  position:static;
+  margin-top:-200px;
+  margin-right: 150px;
+  float:right;
+  padding-right: -70px;
+  background-color: #A1D2CE;
+  width: 30%;
+  height: 40%;
+}
+
+h4{
+  font-family: 'Gilda Display', serif;
+  font-size: 30px;
+  text-align: center;
+}
+.logo {
+  padding-top: -700px;
+  float:left;
+  width: 85px;
+  height:85px;
+}
+
+.icon{
+  padding-top: -100px;
+  float:left;
+  margin-left: 40px;
+  width: 75px;
+  height:75px;
+}
+
+/* h10{
+  text-align: center;
+  font-size:35px;
+  font-family: 'Gilda Display', serif;
+  color: black
+} */
+ h5{
+  max-width: 20000px;
+  margin: 80 auto;
+}
+/* h12{
+  font-size:30px;
+    font-family: 'Gilda Display', serif;
+} */
+
+.TwitterBox{
+  padding-left: 40px;
+  width:40%;
+  height: 50%;
+}
+/* #grad1 {
+    height: 1500px;
+    background-image: linear-gradient(to left bottom, #fdcc9b, #fcb478, #fc9b58, #fc7e3d, #fb5c26);
+} */
+body{
+  background-color: white
+}
+/* h6{
+  position: absolute;
+  top:1050px;
+  margin-left: 45px;
+}
+
+h7{ */
+  /* position: absolute;
+  top:1200px;
+  margin-left: 45px;
+
+  /* margin-left: -245px; */
+
+/* }
+h8{
+  position: absolute;
+  top:1310px;
+  margin-left: 45px;
+}
+h12{
+  position: absolute;
+  margin-left: 150px;
+  top: 1095px;
+}
+h10{
+  h9{
+    position: absolute;
+    margin-left: 300px;
+    top: 1095px;
+
+}
+h11{
+    position: absolute;
+    margin-left: 500px;
+    top: 1295px;
+
+} */ */
